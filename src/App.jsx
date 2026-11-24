@@ -1,6 +1,6 @@
 import { useState } from "react";
-import UploadBox from "./UploadBox";
-import ViewerPane from "./ViewerPane";
+import UploadBox from "./components/UploadBox";
+import ViewerPane from "./components/ViewerPane";
 
 export default function App() {
   const [images, setImages] = useState([]);
