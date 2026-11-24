@@ -1,1 +1,0 @@
-export function bearing(a,b,c,d){const r=v=>v*Math.PI/180;const y=Math.sin(r(d-b))*Math.cos(r(c));const x=Math.cos(r(a))*Math.sin(r(c))-Math.sin(r(a))*Math.cos(r(c))*Math.cos(r(d-b));return (Math.atan2(y,x)*180/Math.PI+360)%360;}
